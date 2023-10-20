@@ -45,7 +45,7 @@ jobs:
         manifests: |
           ./kube-news/k8s/deployment.yaml
         images: | 
-          fabricioveronez/kube-news:${{ github.run_number }}
+          thiagofdso/kube-news:${{ github.run_number }}
         
         
           
